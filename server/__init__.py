@@ -4,6 +4,6 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 
 db = SQLAlchemy()
-app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://postgres:402010@localhost:5432/banco"
+app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://#usuario:#contraseña@#direccion:#puerto/banco"
 
 db.init_app(app)
