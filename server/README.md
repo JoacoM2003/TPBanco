@@ -13,3 +13,6 @@ Crear una BD vacía que se llame "banco"
 # Luego, en la consola, poner
 Flask shell
 db.create.all()
+
+# Para ejecutar la app:
+flask run
